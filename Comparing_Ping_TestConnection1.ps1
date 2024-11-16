@@ -1,4 +1,4 @@
-cls
+﻿cls
 function Use-PingValid{
 if (ping 192.168.10.11 -n 1 | Select-String "ttl"){}
 #else {}
